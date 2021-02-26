@@ -1,0 +1,25 @@
+body {
+  font-size: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#navigation {
+  width: 20%;
+  float: left;
+  padding-right: 20px;
+}
+
+#content {
+  float: left;
+}
+
+.navigation-item {
+  padding: 10px;
+  cursor: pointer;
+}
+.navigation-highlight {
+  color: #ff5c38;
+}

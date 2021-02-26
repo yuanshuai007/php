@@ -1,0 +1,40 @@
+html, body {
+  font-size: 20px;
+  height: 100%;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0px;
+  margin: 0px;
+}
+
+#navigation {
+  width: 20%;
+  float: left;
+  padding-right: 20px;
+  height: 100%;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+#content {
+  width: 80%;
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.navigation-item {
+  padding: 10px;
+  cursor: pointer;
+}
+.navigation-highlight {
+  color: #ff5c38;
+}
